@@ -28,7 +28,7 @@ B = [[5,6,7]
      ,[0,2,5]
      ,[2,3,4]]
 result = matrix_multiplication(A, B)
-
-print("Result:", result)
-for row in result:
-    print(row)
+if result in not None:
+    print("Result:", result)
+    for row in result:
+        print(row)
