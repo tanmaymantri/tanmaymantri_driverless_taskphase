@@ -34,7 +34,6 @@ print("Sorted words:", words)
 target = input("Enter word to search: ")
 search_object = BinarySearch()
 result = search_object.search(words, target)
-print(result)
 if result:
     print("String found")
 else:
