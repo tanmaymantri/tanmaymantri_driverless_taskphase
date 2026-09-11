@@ -7,7 +7,7 @@ def matrix_multiplication(A, B):
 
     if col_A != row_B:
         print("Multiplication is not possible!!")
-        return
+        return None
 
     result = []
     for i in range(row_A):
@@ -28,7 +28,7 @@ B = [[5,6,7]
      ,[0,2,5]
      ,[2,3,4]]
 result = matrix_multiplication(A, B)
-if result in not None:
+if result is not None:
     print("Result:", result)
     for row in result:
         print(row)
